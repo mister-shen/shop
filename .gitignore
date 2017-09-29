@@ -33,4 +33,5 @@ hs_err_pid*
 *.classpath
 *.settings
 *.project
-/e3-parent/e3-parent.iml
+/*/*/target/
+
