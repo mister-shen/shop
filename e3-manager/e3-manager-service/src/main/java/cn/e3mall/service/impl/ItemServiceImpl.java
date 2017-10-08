@@ -1,7 +1,12 @@
 package cn.e3mall.service.impl;
 
+import java.util.Date;
 import java.util.List;
 
+import cn.e3mall.common.utils.E3Result;
+import cn.e3mall.common.utils.IDUtils;
+import cn.e3mall.mapper.TbItemDescMapper;
+import cn.e3mall.pojo.TbItemDesc;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,6 +32,9 @@ public class ItemServiceImpl implements ItemService {
 
 	@Autowired
 	private TbItemMapper itemMapper;
+
+	@Autowired
+	private TbItemDescMapper itemDescMapper;
 	
 	@Override
 	public TbItem getItemById(long itemId) {
@@ -60,6 +68,32 @@ public class ItemServiceImpl implements ItemService {
 		long total = pageInfo.getTotal();
 		result.setTotal(total);
 		return result;
+	}
+
+	@Override
+	public E3Result addItem(TbItem tbItem, String desc) {
+		//1.生成商品id
+		long itemId = IDUtils.genItemId();
+		//2.补全TbItem对象
+		tbItem.setId(itemId);
+		//商品状态，1-正常，2-下架，3-删除
+		tbItem.setStatus((byte)1);
+		Date date = new Date();
+		tbItem.setUpdated(date);
+		tbItem.setCreated(date);
+		//3.向商品表插入数据
+		itemMapper.insert(tbItem);
+		//4.创建一个TbItemDesc对象
+		TbItemDesc itemDesc = new TbItemDesc();
+		//5.补全TbItemDesc的属性
+		itemDesc.setCreated(date);
+		itemDesc.setItemId(itemId);
+		itemDesc.setUpdated(date);
+		itemDesc.setItemDesc(desc);
+		//6.向商品描述表插入数据
+		itemDescMapper.insert(itemDesc);
+		//7.返回结果值
+		return E3Result.ok();
 	}
 
 }
