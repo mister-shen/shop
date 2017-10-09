@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <artifactId>e3-parent</artifactId>
         <groupId>cn.e3mall</groupId>
@@ -7,19 +7,11 @@
         <relativePath>../e3-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>e3-manager-web</artifactId>
-
-    <name>e3-manager-web</name>
+    <artifactId>e3-portal-web</artifactId>
+    <packaging>war</packaging>
+    <name>e3-portal-web</name>
     <url>http://maven.apache.org</url>
-
-  <packaging>war</packaging>
     <dependencies>
-        <dependency>
-            <groupId>cn.e3mall</groupId>
-            <artifactId>e3-manager-interface</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>cn.e3mall</groupId>
             <artifactId>e3-content-interface</artifactId>
@@ -100,11 +92,6 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
-        <!-- 文件上传组件 -->
-        <dependency>
-            <groupId>commons-fileupload</groupId>
-            <artifactId>commons-fileupload</artifactId>
-        </dependency>
     </dependencies>
     <!-- 配置tomcat插件 -->
     <build>
@@ -114,7 +101,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
                     <path>/</path>
-                    <port>8089</port>
+                    <port>8091</port>
                 </configuration>
             </plugin>
         </plugins>
