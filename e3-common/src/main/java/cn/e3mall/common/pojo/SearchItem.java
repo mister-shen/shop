@@ -9,6 +9,16 @@ public class SearchItem implements Serializable{
 	private long price;
 	private String image;
 	private String category_name;
+	private String item_desc;
+
+	public String getItem_desc() {
+		return item_desc;
+	}
+
+	public void setItem_desc(String item_desc) {
+		this.item_desc = item_desc;
+	}
+
 	public String getId() {
 		return id;
 	}

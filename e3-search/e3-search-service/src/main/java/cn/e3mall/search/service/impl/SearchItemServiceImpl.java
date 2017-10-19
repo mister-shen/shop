@@ -57,4 +57,24 @@ public class SearchItemServiceImpl implements SearchItemService {
 		}
 	}
 
+	public E3Result addDocument(long itemId) throws Exception{
+		//1.根据商品id查询商品信息
+		SearchItem searchItem = itemMapper.getItemById(itemId);
+		//2.创建SolrInputDocument对象
+		SolrInputDocument document = new SolrInputDocument();
+		//3.使用SolrServer写入到索引库
+		document.addField("id", searchItem.getId());
+		document.addField("item_title", searchItem.getTitle());
+		document.addField("item_sell_point", searchItem.getSell_point());
+		document.addField("item_price", searchItem.getPrice());
+		document.addField("item_image", searchItem.getImage());
+		document.addField("item_category_name", searchItem.getCategory_name());
+		document.addField("item_desc", searchItem.getItem_desc());
+		//4.向索引库添加文档
+		solrServer.add(document);
+		solrServer.commit();
+		//5.返回成功，返回E3Result.ok();
+		return E3Result.ok();
+	}
+
 }
