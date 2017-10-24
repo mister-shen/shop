@@ -17,7 +17,7 @@ public class ActiveMQTest {
      * @author shenrs
      * @create 2017/10/17 10:24
      */
-    @Test
+//    @Test
     public void testQueueProducer() throws Exception{
         //第一步：创建ConnectionFactory对象，需要指定服务端ip及端口号。
        ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://localhost:61616");
@@ -50,7 +50,7 @@ public class ActiveMQTest {
      * @author shenrs
      * @create 2017/10/17 10:40
      */
-    @Test
+//    @Test
     public void testQueueConsumer() throws Exception{
         //第一步：创建一个ConnectionFactory对象。
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://localhost:61616");
@@ -93,7 +93,7 @@ public class ActiveMQTest {
      * @author shenrs
      * @create 2017/10/17 11:33
      */
-    @Test
+//    @Test
     public void testTopicProducer() throws Exception{
         //第一步：创建ConnectionFactory对象，需要指定服务端ip及端口号。
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://localhost:61616");
@@ -122,7 +122,7 @@ public class ActiveMQTest {
      * @author shenrs
      * @create 2017/10/17 11:41
      */
-    @Test
+//    @Test
     public void testTopicConsumer() throws Exception{
         //第一步：创建一个ConnectionFactory对象。
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://localhost:61616");
@@ -163,7 +163,7 @@ public class ActiveMQTest {
      * @author shenrs
      * @create 2017/10/17 11:41
      */
-    @Test
+//    @Test
     public void testTopicConsumer2() throws Exception{
         //第一步：创建一个ConnectionFactory对象。
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://localhost:61616");

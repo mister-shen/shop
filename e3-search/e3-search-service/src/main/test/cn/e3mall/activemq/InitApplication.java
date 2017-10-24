@@ -16,7 +16,7 @@ public class InitApplication {
      * @author shenrs
      * @create 2017/10/19 16:26
      */
-    @Test
+//    @Test
     public void testQueueConsumer() throws Exception{
         //初始化spring容器
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-activemq.xml");

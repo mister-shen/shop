@@ -14,7 +14,7 @@ import org.junit.Test;
 
 public class TestSolrJ {
 
-	@Test
+//	@Test
 	public void addDocument() throws Exception {
 		//创建一个SolrServer对象，创建一个连接。参数solr服务的url
 		SolrServer solrServer = new HttpSolrServer("http://192.168.25.130:8080/solr/collection1");
@@ -30,7 +30,7 @@ public class TestSolrJ {
 		solrServer.commit();
 	}
 
-	@Test
+//	@Test
 	public void deleteDocument() throws Exception {
 		SolrServer solrServer = new HttpSolrServer("http://192.168.25.130:8080/solr/collection1");
 		//删除文档
@@ -40,7 +40,7 @@ public class TestSolrJ {
 		solrServer.commit();
 	}
 
-	@Test
+//	@Test
 	public void queryIndex() throws Exception {
 		//创建一个SolrServer对象。
 		SolrServer solrServer = new HttpSolrServer("http://192.168.25.130:8080/solr/collection1");
@@ -65,7 +65,7 @@ public class TestSolrJ {
 		}
 	}
 
-	@Test
+//	@Test
 	public void queryIndexFuza() throws Exception {
 		SolrServer solrServer = new HttpSolrServer("http://192.168.25.130:8080/solr/collection1");
 		//创建一个查询对象

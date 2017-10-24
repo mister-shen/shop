@@ -9,13 +9,13 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
 
 	<!--单机版solr服务配置-->
-	<!--<bean id="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">-->
-		<!--<constructor-arg index="0" value="http://192.168.25.130:8081/solr/collection1"/>-->
-	<!--</bean>-->
+	<bean id="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
+		<constructor-arg index="0" value="http://192.168.25.130:8081/solr/collection1"/>
+	</bean>
 
 	<!--集群版solr服务配置-->
-	<bean id="cloudSolrServer" class="org.apache.solr.client.solrj.impl.CloudSolrServer">
+	<!--<bean id="cloudSolrServer" class="org.apache.solr.client.solrj.impl.CloudSolrServer">
 		<constructor-arg index="0" value="192.168.25.130:2184,192.168.25.130:2182,192.168.25.130:2183" />
 		<property name="defaultCollection" value="collection2" />
-	</bean>
+	</bean>-->
 </beans>

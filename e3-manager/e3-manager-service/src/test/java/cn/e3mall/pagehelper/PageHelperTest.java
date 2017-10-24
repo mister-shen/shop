@@ -15,7 +15,7 @@ import cn.e3mall.pojo.TbItemExample;
 
 public class PageHelperTest {
 
-	@Test
+//	@Test
 	public void testPageHelper() throws Exception {
 		//初始化spring容器
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-dao.xml");

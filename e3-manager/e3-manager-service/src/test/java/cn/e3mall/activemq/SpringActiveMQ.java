@@ -22,7 +22,7 @@ public class SpringActiveMQ {
      * @author shenrs
      * @create 2017/10/19 14:57
      */
-    @Test
+//    @Test
     public void testStringActivemq() throws Exception{
         //初始化spring容器
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-activemq.xml");
@@ -46,7 +46,7 @@ public class SpringActiveMQ {
      * @author shenrs
      * @create 2017/10/19 15:30
      */
-    @Test
+//    @Test
     public void testQueueProducer() throws Exception{
         //第一步：初始化一个spring容器
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-activemq.xml");

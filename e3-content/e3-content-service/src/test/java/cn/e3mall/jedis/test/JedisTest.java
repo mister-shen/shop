@@ -14,7 +14,7 @@ public class JedisTest {
     /**
      * 连接单机版
      */
-    @Test
+//    @Test
     public  void testJedis(){
         // 第一步：创建一个Jedis对象。需要指定服务端的ip及端口。
         Jedis jedis = new Jedis("192.168.25.130", 6379);
@@ -30,7 +30,7 @@ public class JedisTest {
     /**
      * 连接单机版使用连接池
      */
-    @Test
+//    @Test
     public void testJedisPool(){
         //第一步：创建一个JedisPool对象。需要指定服务端的ip及端口。
         JedisPool jedisPool = new JedisPool("192.168.25.130",6379);
@@ -47,7 +47,7 @@ public class JedisTest {
     /**
      * 连接集群版
      */
-    @Test
+//    @Test
     public void testJedisCluster(){
         //第一步：使用JedisCluster对象。需要一个Set<HostAndPort>参数。Redis节点的列表。
         Set<HostAndPort> nodes = new HashSet<>();

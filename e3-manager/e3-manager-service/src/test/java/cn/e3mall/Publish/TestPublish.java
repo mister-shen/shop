@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestPublish {
 
-	@Test
+//	@Test
 	public void publishService() throws Exception {
 		
 //		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
