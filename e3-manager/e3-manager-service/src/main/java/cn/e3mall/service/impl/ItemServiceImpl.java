@@ -27,10 +27,7 @@ import cn.e3mall.pojo.TbItemExample.Criteria;
 import cn.e3mall.service.ItemService;
 
 import javax.annotation.Resource;
-import javax.jms.Destination;
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.Session;
+import javax.jms.*;
 
 /**
  * 商品管理Service
@@ -140,8 +137,8 @@ public class ItemServiceImpl implements ItemService {
 		jmsTemplate.send(topicDestination, new MessageCreator() {
 			@Override
 			public Message createMessage(Session session) throws JMSException {
-				session.createTextMessage(itemId+"");
-				return null;
+				TextMessage textMessage = session.createTextMessage(itemId + "");
+				return textMessage;
 			}
 		});
 		//7.返回结果值

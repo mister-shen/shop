@@ -1,4 +1,4 @@
-package cn.e3mall.item;
+package cn.e3mall.item.listener;
 
 import cn.e3mall.item.pojo.Item;
 import cn.e3mall.pojo.TbItem;

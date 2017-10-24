@@ -33,7 +33,7 @@
 
 
 	<!-- 配置监听器 商品信息变更监听-->
-	<bean id="htmlGenListener" class="cn.e3mall.item.HtmlGenListener" />
+	<bean id="htmlGenListener" class="cn.e3mall.item.listener.HtmlGenListener" />
 	<!-- 消息监听容器 -->
 	<bean class="org.springframework.jms.listener.DefaultMessageListenerContainer">
 		<property name="connectionFactory" ref="connectionFactory" />
