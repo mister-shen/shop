@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="915c3e55-60b3-46cc-bf68-9be2607fbff2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/main/java/cn/e3mall/item/HtmlGenListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/main/java/cn/e3mall/item/controller/HtmlGenController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/main/resources/conf/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/main/resources/spring/applicationContext-activemq.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/main/webapp/WEB-INF/ftl/commons/footer.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/main/webapp/WEB-INF/ftl/commons/header.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/main/webapp/WEB-INF/ftl/commons/mainmenu.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/main/webapp/WEB-INF/ftl/commons/shortcut.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/main/webapp/WEB-INF/ftl/item.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/main/webapp/WEB-INF/ftl/student.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/test/cn/e3mall/freemarker/FreemarkerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-item-web/src/test/cn/e3mall/freemarker/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/spring/applicationContext-redis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/e3_item_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/e3_item_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-content/e3-content-service/src/main/resources/conf/log4j.properties" afterPath="$PROJECT_DIR$/e3-content/e3-content-service/src/main/resources/conf/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-content/e3-content-service/src/test/java/cn/e3mall/jedis/test/JedisClientTest.java" afterPath="$PROJECT_DIR$/e3-content/e3-content-service/src/test/java/cn/e3mall/jedis/test/JedisClientTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-content/e3-content-service/src/test/java/cn/e3mall/jedis/test/JedisTest.java" afterPath="$PROJECT_DIR$/e3-content/e3-content-service/src/test/java/cn/e3mall/jedis/test/JedisTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-item-web/pom.xml" afterPath="$PROJECT_DIR$/e3-item-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-item-web/src/main/java/cn/e3mall/item/controller/ItemController.java" afterPath="$PROJECT_DIR$/e3-item-web/src/main/java/cn/e3mall/item/controller/ItemController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-item-web/src/main/resources/conf/resource.properties" afterPath="$PROJECT_DIR$/e3-item-web/src/main/resources/conf/resource.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-item-web/src/main/resources/spring/springmvc.xml" afterPath="$PROJECT_DIR$/e3-item-web/src/main/resources/spring/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-item-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/e3-item-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-manager-web/src/main/resources/conf/log4j.properties" afterPath="$PROJECT_DIR$/e3-manager-web/src/main/resources/conf/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/conf/log4j.properties" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/conf/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/test/java/cn/e3mall/Publish/TestPublish.java" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/test/java/cn/e3mall/Publish/TestPublish.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/test/java/cn/e3mall/activemq/ActiveMQTest.java" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/test/java/cn/e3mall/activemq/ActiveMQTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/test/java/cn/e3mall/activemq/SpringActiveMQ.java" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/test/java/cn/e3mall/activemq/SpringActiveMQ.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/test/java/cn/e3mall/pagehelper/PageHelperTest.java" afterPath="$PROJECT_DIR$/e3-manager/e3-manager-service/src/test/java/cn/e3mall/pagehelper/PageHelperTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-search-web/src/main/resources/conf/log4j.properties" afterPath="$PROJECT_DIR$/e3-search-web/src/main/resources/conf/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF/jsp/search.jsp" afterPath="$PROJECT_DIR$/e3-search-web/src/main/webapp/WEB-INF/jsp/search.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/resources/conf/log4j.properties" afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/resources/conf/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/resources/spring/applicationContext-solr.xml" afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/resources/spring/applicationContext-solr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/test/cn/e3mall/activemq/InitApplication.java" afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/test/cn/e3mall/activemq/InitApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/test/cn/e3mall/solrj/TestSolrJ.java" afterPath="$PROJECT_DIR$/e3-search/e3-search-service/src/main/test/cn/e3mall/solrj/TestSolrJ.java" />
     </list>
     <ignored path="$PROJECT_DIR$/e3-parent/target/" />
     <ignored path="$PROJECT_DIR$/e3-common/target/" />
@@ -68,7 +33,18 @@
     <favorites_list name="shop" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/e3-search/e3-search-service/src/main/java/cn/e3mall/search/message/MyMessageListener.java" />
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/resources/spring/applicationContext-activemq.xml" />
         <option value="$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java/cn/e3mall/service/impl/ItemCatServiceImpl.java" />
         <option value="$PROJECT_DIR$/e3-search/e3-search-service/src/main/java/cn/e3mall/search/mapper/ItemMapper.java" />
@@ -169,6 +144,7 @@
         <option value="$PROJECT_DIR$/e3-item-web/src/main/java/cn/e3mall/item/HtmlGenListener.java" />
         <option value="$PROJECT_DIR$/e3-item-web/src/main/resources/spring/applicationContext-activemq.xml" />
         <option value="$PROJECT_DIR$/e3-item-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -716,7 +692,7 @@
       <workItem from="1508234182276" duration="19000" />
       <workItem from="1508395579578" duration="11535000" />
       <workItem from="1508722716768" duration="14530000" />
-      <workItem from="1508811514463" duration="109000" />
+      <workItem from="1508811514463" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="添加过滤提交文件">
       <created>1506674051253</created>
@@ -817,7 +793,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131062000" />
+    <option name="totallyTimeSpent" value="131255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -962,13 +938,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/test/java/cn/e3mall/Publish/TestPublish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e3-search/e3-search-service/src/main/test/cn/e3mall/activemq/InitApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1327,6 +1296,14 @@
             <element signature="e#3792#3966#0" expanded="true" />
             <element signature="e#3965#3966#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
