@@ -1,4 +1,4 @@
-package cn.e3mall.service.impl;
+package cn.e3mall.sso.service.impl;
 
 import java.util.Date;
 import java.util.List;
@@ -9,6 +9,7 @@ import cn.e3mall.common.utils.IDUtils;
 import cn.e3mall.common.utils.JsonUtils;
 import cn.e3mall.mapper.TbItemDescMapper;
 import cn.e3mall.pojo.TbItemDesc;
+import cn.e3mall.sso.service.ItemService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -24,7 +25,6 @@ import cn.e3mall.mapper.TbItemMapper;
 import cn.e3mall.pojo.TbItem;
 import cn.e3mall.pojo.TbItemExample;
 import cn.e3mall.pojo.TbItemExample.Criteria;
-import cn.e3mall.service.ItemService;
 
 import javax.annotation.Resource;
 import javax.jms.*;

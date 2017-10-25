@@ -22,7 +22,6 @@
         <option value="$PROJECT_DIR$/e3-content/pom.xml" />
         <option value="$PROJECT_DIR$/e3-search/pom.xml" />
         <option value="$PROJECT_DIR$/e3-search-web/pom.xml" />
-        <option value="$PROJECT_DIR$/e3-item-web/pom.xml" />
         <option value="$PROJECT_DIR$/e3-sso/pom.xml" />
         <option value="$PROJECT_DIR$/e3-sso-web/pom.xml" />
       </list>

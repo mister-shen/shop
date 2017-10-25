@@ -1,13 +1,14 @@
-package cn.e3mall.service;
+package cn.e3mall.sso.service;
 
 import cn.e3mall.common.utils.E3Result;
+import cn.e3mall.pojo.TbUser;
 
 /**
  * @author shenrs
- * @Description 用户服务类
+ * @Description 注册服务类
  * @create 2017-10-24 16:43
  **/
-public interface UserService {
+public interface RegisterService {
 
     /**
      * 校验用户名、电话号码、邮箱是否重复
@@ -16,4 +17,11 @@ public interface UserService {
      * @return
      */
     E3Result checkData(String param, int type);
+
+    /**
+     * 注册用户信息
+     * @param tbUser
+     * @return
+     */
+    E3Result register(TbUser tbUser);
 }

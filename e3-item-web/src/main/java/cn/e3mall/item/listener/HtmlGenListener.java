@@ -3,7 +3,7 @@ package cn.e3mall.item.listener;
 import cn.e3mall.item.pojo.Item;
 import cn.e3mall.pojo.TbItem;
 import cn.e3mall.pojo.TbItemDesc;
-import cn.e3mall.service.ItemService;
+import cn.e3mall.sso.service.ItemService;
 import freemarker.core.ParseException;
 import freemarker.template.*;
 import org.springframework.beans.factory.annotation.Autowired;

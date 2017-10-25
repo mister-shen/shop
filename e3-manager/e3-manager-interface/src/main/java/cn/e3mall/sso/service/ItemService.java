@@ -1,4 +1,4 @@
-package cn.e3mall.service;
+package cn.e3mall.sso.service;
 
 import cn.e3mall.common.pojo.EasyUIDataGridResult;
 import cn.e3mall.common.utils.E3Result;

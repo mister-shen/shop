@@ -5,8 +5,11 @@
   <groupId>cn.e3mall</groupId>
   <artifactId>e3-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>../e3-item-web</module>
+    </modules>
 
-  <name>e3-parent</name>
+    <name>e3-parent</name>
   <url>http://maven.apache.org</url>
 
  <packaging>pom</packaging>

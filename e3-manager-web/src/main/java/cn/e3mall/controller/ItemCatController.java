@@ -1,10 +1,9 @@
 package cn.e3mall.controller;
 
 import cn.e3mall.common.pojo.EasyUITreeNode;
-import cn.e3mall.service.ItemCatService;
+import cn.e3mall.sso.service.ItemCatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
