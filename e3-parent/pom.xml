@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
     <modules>
         <module>../e3-item-web</module>
+      <module>../e3-cart-web</module>
     </modules>
 
     <name>e3-parent</name>
