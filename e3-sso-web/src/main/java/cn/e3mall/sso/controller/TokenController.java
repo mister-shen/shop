@@ -28,7 +28,7 @@ public class TokenController {
      * @param callback
      * @return
      */
-    @RequestMapping(value = "/user/token/${token}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE/*"application/json;charset=utf-8"*/)
+    @RequestMapping(value = "/user/token/{token}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE/*"application/json;charset=utf-8"*/)
     @ResponseBody
     public String getUserByToken(@PathVariable String token, String callback){
         E3Result result = tokenService.getUserByToken(token);
@@ -47,7 +47,7 @@ public class TokenController {
      * @param callback
      * @return
      */
-   /* @RequestMapping("/user/token/${token}")
+   /* @RequestMapping("/user/token/{token}")
     @ResponseBody
     public Object getUserByToken1(@PathVariable String token, String callback){
         E3Result result = tokenService.getUserByToken(token);

@@ -1,4 +1,4 @@
-package cn.e3mall.sso.service;
+package cn.e3mall.manager.service;
 
 import cn.e3mall.common.pojo.EasyUITreeNode;
 

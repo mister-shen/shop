@@ -1,10 +1,10 @@
-package cn.e3mall.sso.service.impl;
+package cn.e3mall.manager.service.impl;
 
 import cn.e3mall.common.pojo.EasyUITreeNode;
+import cn.e3mall.manager.service.ItemCatService;
 import cn.e3mall.mapper.TbItemCatMapper;
 import cn.e3mall.pojo.TbItemCat;
 import cn.e3mall.pojo.TbItemCatExample;
-import cn.e3mall.sso.service.ItemCatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +15,7 @@ import java.util.List;
  * 商品管理服务实现类
  */
 @Service
-public class ItemCatServiceImpl  implements ItemCatService{
+public class ItemCatServiceImpl  implements ItemCatService {
     @Autowired
     private TbItemCatMapper itemCatMapper;
 

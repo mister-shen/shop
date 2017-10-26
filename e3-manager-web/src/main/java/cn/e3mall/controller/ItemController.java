@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import cn.e3mall.common.pojo.EasyUIDataGridResult;
 import cn.e3mall.pojo.TbItem;
-import cn.e3mall.sso.service.ItemService;
+import cn.e3mall.manager.service.ItemService;
 
 /**
  * 商品管理Controller

@@ -27,6 +27,11 @@ public class UserController {
     @Value("${TOKEN_KEY}")
     private String TOKEN_KEY;
 
+    @RequestMapping("/page/login")
+    public String showLogin() {
+        return "login";
+    }
+
     @RequestMapping(value = "/user/login", method = RequestMethod.POST)
     @ResponseBody
     public E3Result login(String username, String password,
@@ -35,8 +40,12 @@ public class UserController {
         //2.调用service进行登录
         E3Result result = userService.userLogin(username, password);
         //3.从结果中获取token，写入cookie，cookie要跨域
-        String token = result.getData().toString();
-        CookieUtils.setCookie(request, response, TOKEN_KEY, token);
+        Object data = result.getData();
+        if(data != null){
+            String token = data.toString();
+            CookieUtils.setCookie(request, response, TOKEN_KEY, token);
+        }
+
         //4.响应数据，json数据，e3result，其中包含token
         return result;
     }

@@ -1,4 +1,4 @@
-package cn.e3mall.sso.service.impl;
+package cn.e3mall.manager.service.impl;
 
 import java.util.Date;
 import java.util.List;
@@ -7,9 +7,9 @@ import cn.e3mall.common.jedis.JedisClient;
 import cn.e3mall.common.utils.E3Result;
 import cn.e3mall.common.utils.IDUtils;
 import cn.e3mall.common.utils.JsonUtils;
+import cn.e3mall.manager.service.ItemService;
 import cn.e3mall.mapper.TbItemDescMapper;
 import cn.e3mall.pojo.TbItemDesc;
-import cn.e3mall.sso.service.ItemService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

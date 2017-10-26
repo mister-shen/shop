@@ -3,7 +3,7 @@ package cn.e3mall.item.controller;
 import cn.e3mall.item.pojo.Item;
 import cn.e3mall.pojo.TbItem;
 import cn.e3mall.pojo.TbItemDesc;
-import cn.e3mall.sso.service.ItemService;
+import cn.e3mall.manager.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
